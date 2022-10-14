@@ -6,7 +6,6 @@
   gap: 40px 48px;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: repeat(2, auto);
-  margin: 0;
 }
 
 @media(max-width: 1024px) {
