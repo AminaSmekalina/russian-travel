@@ -1,0 +1,25 @@
+.header {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 28px 48px 56px;
+  align-items: center;
+}
+
+@media(max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+  }
+}
+
+@media(max-width: 320px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+  }
+}

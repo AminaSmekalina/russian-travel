@@ -1,0 +1,39 @@
+.places__place {
+  margin:0;
+  padding: 0 148px 80px;
+  display: grid;
+  box-sizing: border-box;
+  gap: 40px 48px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
+  margin: 0;
+}
+
+@media(max-width: 1024px) {
+  .places__place {
+    padding-left: 48px;
+    padding-right: 48px;
+    gap: 32px 48px;
+
+  }
+}
+
+@media(max-width: 768px) {
+  .places__place {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 73px;
+    gap: 28px 48px;
+  }
+}
+
+@media(max-width: 320px) {
+  .places__place {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 64px;
+    gap: 32px;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(1, auto);
+  }
+}

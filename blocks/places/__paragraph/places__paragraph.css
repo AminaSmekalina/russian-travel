@@ -1,0 +1,35 @@
+.places__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  max-width: 484px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+}
+
+@media(max-width: 1024px) {
+  .places__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media(max-width: 768px) {
+  .places__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 320px) {
+  .places__paragraph {
+    max-width: 288px;
+    font-size: 16px;
+    grid-column: 1;
+    grid-row: 4;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
