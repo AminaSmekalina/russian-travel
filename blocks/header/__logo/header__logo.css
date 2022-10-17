@@ -1,7 +1,5 @@
 .header__logo {
   min-width: 176px;
-  background-color: #2A2C2F;
-  align-items: center;
 }
 
 @media(max-width: 320px) {

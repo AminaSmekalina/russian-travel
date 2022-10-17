@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.footer__link:hover {
+  opacity: .8;
+  transition: opacity .3s ease-in-out;
+}
 
 @media(max-width: 320px) {
   .footer__links {

@@ -1,26 +1,27 @@
 .places__image {
-  width: 100%;
-
- background: url(nikita-tikhomirov-1153188-unsplash.jpg);
- grid-column: span 1;
- grid-row: span 2;
+  max-width: 460px;
+  grid-column: span 1;
+  grid-row: span 2;
+  object-fit: cover;
+  object-position: 100% 100%;
+  margin: 0;
 }
 
 @media(max-width: 1024px) {
   .places__image {
-    width: 100%;
+    max-width: 440px;
   }
 }
 
 @media(max-width: 768px) {
   .places__image {
-    width: 100%;
+    max-width: 340px;
   }
 }
 
 @media(max-width: 320px) {
   .places__image {
-    width: 100%;
+    max-width: 320px;
     grid-column: 1;
     grid-row: 3;
   }
