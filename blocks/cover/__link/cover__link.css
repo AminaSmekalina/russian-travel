@@ -7,11 +7,11 @@
   cursor: pointer;
   z-index: 1;
   background-size: cover;
-  min-height: 740px;
-  margin: 0 48px 92px;
+  margin: 0 48px 0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 740px;
 }
 
 
@@ -43,8 +43,7 @@
 @media(max-width: 768px) {
   .cover__link {
     min-height: 480px;
-    margin-bottom: 88px;
-  }
+ }
 }
 
 @media(max-width: 320px) {

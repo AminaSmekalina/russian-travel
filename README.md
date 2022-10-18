@@ -11,6 +11,6 @@
 
 **Вот что у меня получилось**
 
-* [Ссылка на проект](https://github.com/AminaSmekalina/russian-travel.git)
+* [Ссылка на проект](https://aminasmekalina.github.io/russian-travel)
 
 я старалась!

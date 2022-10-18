@@ -1,15 +1,14 @@
 .places__image {
   max-width: 460px;
   grid-column: span 1;
-  grid-row: span 2;
   object-fit: cover;
-  object-position: 100% 100%;
   margin: 0;
 }
 
 @media(max-width: 1024px) {
   .places__image {
     max-width: 440px;
+    max-height: 440px;
   }
 }
 
@@ -24,5 +23,6 @@
     max-width: 320px;
     grid-column: 1;
     grid-row: 3;
+    margin: 0;
   }
 }
