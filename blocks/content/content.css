@@ -8,3 +8,11 @@
     padding-bottom: 88px;
   }
 }
+
+
+@media (max-width: 768px) {
+  .content {
+    padding-bottom: 64px;
+  }
+}
+
