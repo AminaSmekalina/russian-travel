@@ -17,7 +17,18 @@
     padding-bottom: 56px;
   }
 }
-@media(max-width: 320px) {
+
+
+@media (max-width: 700px) {
+  .lead__subtitle {
+    max-width: 400px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    line-height: 24px;
+  }}
+
+
+@media(max-width: 425px) {
   .lead__subtitle {
     max-width: 288px;
     padding-bottom: 40px;

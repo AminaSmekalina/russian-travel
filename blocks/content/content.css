@@ -1,11 +1,17 @@
 .content {
-  padding-bottom: 92px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding-bottom: 87px;
+  }
 }
 
 
 @media (max-width: 768px) {
   .content {
-    padding-bottom: 88px;
+    padding-bottom: 75px;
   }
 }
 

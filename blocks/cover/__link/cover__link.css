@@ -43,8 +43,9 @@
 @media(max-width: 768px) {
   .cover__link {
     min-height: 480px;
- }
+  }
 }
+
 
 @media(max-width: 320px) {
   .cover__link {
