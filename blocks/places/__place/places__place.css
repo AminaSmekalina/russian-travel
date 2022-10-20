@@ -29,9 +29,8 @@
   .places__place {
     padding-bottom: 50px;
     gap: 32px 32px;
-    grid-template-rows: repeat(4, auto);    
+    grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(1, auto);
 
   }
 }
-
